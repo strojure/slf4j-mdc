@@ -1,4 +1,4 @@
-(defproject com.github.strojure/slf4j-mdc "1.0.0"
+(defproject com.github.strojure/slf4j-mdc "1.1.1-SNAPSHOT"
   :description "Clojure utility for SLF4J logging system's MDC (Mapped Diagnostic Context)."
   :url "https://github.com/strojure/slf4j-mdc"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
