@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.11.1" :scope "provided"]
                  [org.slf4j/slf4j-api "1.7.36"]]
 
-  :profiles {:dev {:dependencies [[org.clojure/tools.logging "1.2.4"]]}})
+  :profiles {:dev {:dependencies [[org.clojure/tools.logging "1.2.4"]]
+                   :source-paths ["doc"]}})
