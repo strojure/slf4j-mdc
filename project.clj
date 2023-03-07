@@ -3,8 +3,10 @@
   :url "https://github.com/strojure/slf4j-mdc"
   :license {:name "The MIT License" :url "http://opensource.org/licenses/MIT"}
 
-  :dependencies [[org.clojure/clojure "1.11.1" :scope "provided"]
-                 [org.slf4j/slf4j-api "1.7.36"]]
+  :dependencies []
 
-  :profiles {:dev {:dependencies [[org.clojure/tools.logging "1.2.4"]]
+  :profiles {:provided {:dependencies [[org.clojure/clojure "1.11.1"]
+                                       [org.slf4j/slf4j-api "1.7.36"]]}
+             :dev {:dependencies [[org.clojure/tools.logging "1.2.4"]
+                                  [ch.qos.logback/logback-classic "1.2.11"]]
                    :source-paths ["doc"]}})
