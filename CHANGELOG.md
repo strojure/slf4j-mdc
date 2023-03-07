@@ -10,6 +10,7 @@ Release date `UNRELEASED`
 
 - (chore) Change license to MIT, same as `slf4j`
 - (feat deps breaking) Move dependency on `slf4j-api` to :provided
+- (docs) Configure logging in example code
 
 ## `1.0.0`
 
