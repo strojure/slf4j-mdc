@@ -1,4 +1,4 @@
-(defproject com.github.strojure/slf4j-mdc "1.0.2-10"
+(defproject com.github.strojure/slf4j-mdc "1.0.3-11-SNAPSHOT"
   :description "Clojure utility for SLF4J logging system's MDC (Mapped Diagnostic Context)."
   :url "https://github.com/strojure/slf4j-mdc"
   :license {:name "The Unlicense" :url "https://unlicense.org"}
